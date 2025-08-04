@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+     <head>
+       <meta charset = "UTF-8">
+       <title> Accessible Table </title>
+       <style>
+         table{
+           height : 300px;
+           width : 200px;
+           border : 2px solid black;
+           border-collapse : collapse;
+         }
+         tr,td{
+           border : 2px solid black;
+           padding : 10px;
+         }
+         tr{
+           text-align : center;
+         }
+       </style>
+     </head>
+     <body>
+          <header>
+            <h1>
+                HTML Table
+            </h1>
+          </header>
+         <main>
+           <table>
+             <caption> Students Info </caption>
+             <colgroup>
+               <col span="2" style = " background-color : burlywood"/>
+             </colgroup>
+             <thead>
+             <tr>
+               <th scope = "col"> ID </th>
+              <th scope = "col"> Name </th>
+             <th scope = "col"> GPA </th>
+             </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td> 101 </td>
+                 <td> Nayem </td>
+                 <td> 3.86 </td>
+               </tr>
+             <tr>
+               <td> 102 </td>
+               <td> Ruba </td>
+               <td> 4.00 </td>
+             </tr>
+             </tbody>
+           </table>
+         </main>
+     </body>
+</html>
