@@ -41,28 +41,24 @@ You can open any file in your browser by simply double-clicking on it, or openin
 
 ##  Why This Repository?
 
-I created this repository to keep track of my learning and practice as I progress through HTML.  
-This not only helps me revise quickly but also lets others see how I started learning the fundamentals of web design.
+Since I am pursuing a future in **Cybersecurity**, it’s crucial for me to have a solid understanding of how websites are built and rendered in browsers.  
+HTML is the foundation of all web pages, and this practice is my first step toward understanding:
 
-In future updates, I will add:
+- Web page structure  
+- Input fields (which are often exploited)  
+- Client-side content manipulation  
+- How web vulnerabilities arise
 
-- **Forms** (input, button, radio, checkbox, etc.)  
-- **Semantic Tags** (`<section>`, `<article>`, `<footer>`, etc.)  
-- **Media Embedding** (video, audio, iframe)  
-- **HTML5 best practices**
+I’ll keep updating this repository as I progress.
 
 
-
-##  About Me
+## About Me
 
 Hi! I’m **Nayem Uddin**, currently a 3rd semester student in the **Department of Computer Science and Engineering**,  
 at the **University of Science and Technology Chittagong (USTC)**.
 
-I started learning HTML recently out of interest in web development.  
-This repository reflects my early progress. As I move forward, I plan to learn **CSS** and **JavaScript** next, and start building small websites and projects.
+My ultimate goal is to become a **Cybersecurity Professional**, and this repository reflects my learning journey, starting with HTML.  
+I believe knowing the structure of web pages will help me understand security flaws better in the long run.
 
-Thanks for visiting!  
-
-
----
+Thanks for checking out my progress. Stay safe and secure!
 
