@@ -1,0 +1,10 @@
+.e1{
+    width: 600px;
+    margin: auto;
+    border: 3px solid green;
+}
+.e2{
+    max-width: 600px;
+    margin: auto;
+    border: 3px solid green;
+}
