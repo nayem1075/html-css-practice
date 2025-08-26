@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> z-index and css3 variables</title>
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+        }
+        #div1{
+            background-color: black;
+            position: absolute;
+            z-index:1;
+        }
+        #div2{
+            background-color: red;
+            position: absolute;
+            left: 150px;
+            top: 150px;
+            z-index:2;
+        }
+    </style>
+</head>
+<body>
+   <div id="div1"></div>
+   <div id="div2"></div>
+</body>
+</html>
