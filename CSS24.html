@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Grid layout </title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .grid-container> div{
+            background-color: gray;
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+        .item1{
+            grid-column: 1/4;
+        }
+        .item2{
+            grid-row: 2/4;
+        }
+        .item3{
+            grid-column:2/4;
+        }
+    </style>
+</head>
+<body>
+       <div class="grid-container">
+           <div class="item1"> <h1>Header</h1> </div>
+           <div class="item2"> <h1>Menu </h1></div>
+           <div> <h1>Main</h1> </div>
+           <div> <h1>Aside</h1> </div>
+           <div class="item3"> <h1>Footer</h1> </div>
+       </div>
+</body>
+</html>
